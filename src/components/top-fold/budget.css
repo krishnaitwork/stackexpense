@@ -1,0 +1,47 @@
+.inc-exp-container {
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    border-radius: .5rem;
+  }
+  
+  .inc-exp-container > div {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .inc-exp-container > div:first-of-type {
+    border-right: 1px solid #dedede;
+  }
+  input {
+    font-size: 16px;
+    width: 50%;
+  }
+  .delete-icon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 16px;
+  }
+.fi{
+    margin-left: 1rem;
+}
+
+  .right{
+    flex-direction: row;
+  }
+  .money {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 5px 0;
+  }
+  
+  .money.plus {
+    color: #2ecc71;
+  }
+  
+  .money.minus {
+    color: #c0392b;
+  }
